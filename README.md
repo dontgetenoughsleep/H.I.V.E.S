@@ -10,7 +10,6 @@ This all started with me wanting to make a poster that plays a song when prompte
  - [ ] Learn how to read a datasheet (harder than it looks)
  - [ ] Learn how to program a ESP32 from Visual Studios (Or just move away from AdruinoIDE and really get my hands dirty to deepen my understanding)
  - [ ] Learn from anybody and everybody on everything involving embedded systems
- - [ ] Color organ that can set "moods" and dancing lights to music from speaker
 
 ## What will H.I.V.E.S be able to do?
 - Play music from posters (this would require it to have access to speakers and accounts. I'll put some pics of my work somewhere in the hub)
@@ -20,6 +19,7 @@ This all started with me wanting to make a poster that plays a song when prompte
 - Morning Checklist and Nighttime checklist reminder 
 - Check if there is available vistors parking at my condo (not really sure how to do this one but it would be pretty great)
 - Shopping list assistant (I always forget something...)
+- Color organ that can set "moods" and dancing lights to music from speaker
 
 ## Plan of action
 1. high-level diagram of H.I.V.E.S capabilies (very basic)
