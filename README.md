@@ -24,6 +24,5 @@ This all started with me wanting to make a poster that plays a song when prompte
 ## Plan of action
 1. high-level diagram of H.I.V.E.S capabilies (very basic)
 2. Present it to the world wide web so they can rip it to sheds (but also help refine the idea)
-3. Think of more steps for the plan of action...
 
 
