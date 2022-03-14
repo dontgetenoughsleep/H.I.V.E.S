@@ -1,23 +1,28 @@
-# KEYNOTE PORTRAIT
+# H.I.V.E.S
+Home Intelegent Voice Evolution System
+## Prequel
+This all started with me wanting to make a poster that plays a song when prompted and kinda went off the rails. I wanted the poster to have minimalistic form factor (kind of like Displate) but still have clear audio to play music from. As time went on, it became evident that the effort it would take to create the resulting project would be more than the actual value of the project itself. This a dilemma that sparked a new idea; what if I had my own home assistant that would bring my posters to life but also do a whole slew of other things to improve the quality of my life? I have been wanting to work on a personal project for a while and have some experience with embedded systems so I think I can at least start, but it's pretty safe to say I have no idea how much of a rabbit whole im getting myself into...this should be fun.
 
-## Description
-First item on my list is the keynote portrait. This is simply a poster (similar to displate) that will play a specific song to a connected bluetooth speaker. Idealy this is the order of which I would like it to work:
-### Main flow
-- Pair poster with H.I.V.E.S system once (can be through RF to give H.I.V.E.S the poster's unique ID)
-- Once connected, user can hit a "play" button on the poster
-- the poster will then send a pre-saved song to H.I.V.E.S system
-- H.I.V.E.S will select a bluetooth speaker and play selected song
+## Things I hope to learn checklist
+- [ ] Better C and C++ coding pratices (I can get it to work, but man it can be a mess to review)
+- [ ] Better Ciruit Design and Architechture 
+- [ ] Improvement with communication protocols (UART, SPI, I2C and try out CAN)
+ - [ ] Learn how to read a datasheet (harder than it looks)
+ - [ ] Learn how to program a ESP32 from Visual Studios (Or just move away from AdruinoIDE and really get my hands dirty to deepen my understanding)
+ - [ ] Learn from anybody and everybody on everything involving embedded systems
 
-### Details
-- More than one poster ID can be saved within the H.I.V.E.S system but only one can be selected to play a song at a time
-- The poster will have 1 button; holding down will send unique ID to H.I.V.E.S
-- 1 quick press of the button will send a request (PLAY or STOP) to H.I.V.E.S
-- 2 quick presses of the button will send a REPLAY request to H.I.V.E.S
-- Say there are 2 posters connected with this H.I.V.E.S system (poster A and poster B). If poster A is playing a song and the user selects poster B to play a song, H.I.V.E.S will stop poster A and play poster B 
+## What will H.I.V.E.S be able to do?
+- Play music from posters (this would require it to have access to speakers and accounts. I'll put some pics of my work somewhere in the hub)
+- Turn off my lights when I go to bed (basically always forget to do that...)
+- Ability to check if I left the oven/stove on (hasn't happen yet, but it will...)
+- Ability to check if my blinds are closed when I leave for the day
+- Morning Checklist and Nighttime checklist reminder 
+- Check if there is available vistors parking at my condo (not really sure how to do this one but it would be pretty great)
+- Shopping list assistant (I always forget something...)
+- Color organ that can set "moods" and dancing lights to music from speaker
 
-### Possible Additions
-- posters can hold albums and playlists
-- posters can hold custom voice recordings
-
+## Plan of action
+1. high-level diagram of H.I.V.E.S capabilies (very basic)
+2. Present it to the world wide web so they can rip it to sheds (but also help refine the idea)
 
 
